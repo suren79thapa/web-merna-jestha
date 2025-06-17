@@ -4,9 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css learning</title>
-    <link rel="stylesheet" href="indexst.css">
+    <!-- <link rel="stylesheet" href="indexst.css"> -->
+     <style>
+        /* header h1{
+        color:blue
+     }
+     section h1{
+        color: red;
+     }
+     .box h1{
+        color: pink;
+     }
+     #some h3{
+        color: brown;
+     }
+     .bx h1, .bx h3{
+        color: purple;
+     }
+     .bxk>h1{
+        color: pink;  
+        
+     } */
+      h1:hover{
+        color: red;
+      }
+      span{
+        color: purple;
+        font-size: 20px;
+      }
+      p::before{
+        content: "Hello jee";
+        color: yellow;
+        font-size: 20px;
+      }
+      p::after{
+        content: "Hello jee";
+        color: yellow;
+        font-size: 20px;
+      }
+      /* attribute selector */
+      input[type='text']{
+        background: red;
+      }
+      /* we use ctrl+space to get the drop down list of hovering type */
+      input[type='email']:focus{
+        color: red;
+        background-color: black;
+        
+      }
+      li:first-child,li:last-child{
+        color: green;
+      }
+      li:nth-child(2n){
+        color:pink;
+      }
+      .boxsib+p{
+        color: red;
+      }
+
+     </style>
 </head>
 <body>
-    <h1>hello how are you?</h1>
+    <!-- <div id="some">
+        <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, explicabo suscipit? Consectetur tenetur maiores nisi sapiente rem, soluta est aliquam. Exercitationem, perspiciatis iure sunt expedita repellat deserunt cumque aut!</h3>
+    </div>
+    <header id="head">
+        <h1>Logo</h1>
+    </header>
+    <div class="box">
+        <h1>this is some box</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem officiis, commodi enim veritatis tenetur pariatur explicabo alias itaque velit ipsa sunt dicta nesciunt tempore delectus praesentium amet debitis repudiandae. Dignissimos dolorem maiores veritatis quidem?</p>
+    </div>
+    <section>
+        <h1>something</h1>
+    </section>
+    <div class="bx">
+        <h1>hello jee</h1>
+        <p>akdhye</p>
+        <h3>new something</h3>
+    </div>
+    <div class="bxk">
+        <h1>hello jee</h1>
+        <div class="c-bx">
+            <h1>child hello jee</h1>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, soluta nulla nemo quasi ad sint.</p>
+        <h1>something interesting</h1>
+    </div> -->
+    <h1>checking the hoverness</h1>
+    <!-- pseudo selector -->
+     <p>Lorem ipsum dolor sit amet, <span>major</span>consectetur adipisicing elit. Quae non veritatis quo accusantium optio iusto ab maxime exercitationem similique veniam.</p>
+     <!-- now working on the element attribute -->
+      <input type="text">
+      <input type="email">
+      <ol>
+        <li>child1</li>
+        <li>child2</li>
+        <li>child3</li>
+        <li>child4</li>
+        <li>child5</li>
+        <li>child6</li>
+        <li>child7</li>
+      </ol>
+      <!-- working on the sibling -->
+       <div class="boxsib">
+        <h1>hello jee</h1>
+       </div>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa non officia dolor officiis, atque nulla in dolorem doloribus, magni saepe explicabo, reprehenderit tempore eligendi vel ratione perspiciatis veritatis sequi facilis!</p>
+       <p>to check the sibling is working or not</p>
 </body>
 </html>
