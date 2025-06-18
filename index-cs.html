@@ -6,7 +6,7 @@
     <title>Css learning</title>
     <!-- <link rel="stylesheet" href="indexst.css"> -->
      <style>
-        /* header h1{
+         /* header h1{
         color:blue
      }
      section h1{
@@ -22,9 +22,9 @@
         color: purple;
      }
      .bxk>h1{
-        color: pink;  
+        color: pink; 
         
-     } */
+     } 
       h1:hover{
         color: red;
       }
@@ -42,11 +42,11 @@
         color: yellow;
         font-size: 20px;
       }
-      /* attribute selector */
+      
       input[type='text']{
         background: red;
       }
-      /* we use ctrl+space to get the drop down list of hovering type */
+      we use ctrl+space to get the drop down list of hovering type
       input[type='email']:focus{
         color: red;
         background-color: black;
@@ -60,6 +60,29 @@
       }
       .boxsib+p{
         color: red;
+      } */
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+       * {
+        box-sizing: border-box;
+      }
+
+      h3 {
+        text-align: start;
+        text-decoration: underline 2px solid;
+        text-underline-offset: 10px;
+        text-transform: capitalize;
+        text-shadow: 2px 2px 10px red;
+        /* text-indent: 50px; */
+      }
+      .bx {
+        height: 200px;
+        width: 200px;
+        background-color: rgba(150, 100, 200, 0.5);
+        /* top,right,bottom left /
+        / top/bottom left right */
+        padding: 10px;
+
       }
 
      </style>
@@ -90,11 +113,11 @@
         </div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, soluta nulla nemo quasi ad sint.</p>
         <h1>something interesting</h1>
-    </div> -->
+    </div>
     <h1>checking the hoverness</h1>
-    <!-- pseudo selector -->
+    pseudo selector
      <p>Lorem ipsum dolor sit amet, <span>major</span>consectetur adipisicing elit. Quae non veritatis quo accusantium optio iusto ab maxime exercitationem similique veniam.</p>
-     <!-- now working on the element attribute -->
+     now working on the element attribute
       <input type="text">
       <input type="email">
       <ol>
@@ -106,11 +129,17 @@
         <li>child6</li>
         <li>child7</li>
       </ol>
-      <!-- working on the sibling -->
+      working on the sibling
        <div class="boxsib">
         <h1>hello jee</h1>
        </div>
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa non officia dolor officiis, atque nulla in dolorem doloribus, magni saepe explicabo, reprehenderit tempore eligendi vel ratione perspiciatis veritatis sequi facilis!</p>
        <p>to check the sibling is working or not</p>
+       day 2 of css
+      <h1>hello surendra</h1> -->
+       <div class="bx">
+      <h3>hello jee</h3>
+
+    </div>
 </body>
 </html>
