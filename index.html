@@ -1,121 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AudioandVideoplayer</title>
-</head>
-<body>
-    <img src="Assets/images/profilepic.jpg" alt="Profile_picture" height="200px">
-<img src="https://images.unsplash.com/photo-1746483966037-c3c9e6374e08?w=600..." alt="dog image" height="200px">
-<br>
-<br>
-<strong>Visit us At <a href="https://unsplash.com" target="_blank">Social Link</a></strong>
-&nbsp;&nbsp;
-<strong>Contact us At <a href="contact.html">Contact Us</a></strong>
-<h3>Download links</h3>
-<a href="assets/files/some.txt" download>Download Text</a>
-<h1>Hello Jee</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum veniam ut laboriosam aut voluptates animi vel,
-      quod magnam? Ea atque eius a facilis, excepturi repellendus quis corrupti voluptatem dolorem eum.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microsoft</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-    <strong>THis is important</strong>
+      body {
+        font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+          sans-serif;
+      }
 
-    <em>Hello jee somthing</em>
-    <br>
-    <h1>H<sub>2</sub>0</h1>
-    <h1>1s<sup>th</sup></h1>
-    <p>Lorem &nbsp; &nbsp; &nbsp; &nvltrie; &napprox; &ngsim; &rightharpoondown; &LeftTriangle; ipsum dolor sit amet.
-    </p>
-    <h3>My Daily Routine</h3>
-    <ol type="A">
-      <li>Reading a book</li>
-      <li>Watching Programming</li>
-      <li>Building Projects</li>
-    </ol>
+      header {
+        padding: 5px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
 
-    <h3>My habits</h3>
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+      }
 
-    <ul type="square">
-      <li>Walking in the street</li>
-      <li>Swimming on the pool</li>
-    </ul>
-    <h3>Show Data in table</h3>
+      a:hover {
+        text-decoration: underline 2px solid;
+        text-underline-offset: 5px;
+      }
 
-    <table border="2px" cellpadding="10px" cellspacing="0">
-      <caption>MarkSheet</caption>
-      <tr>
-        <td>Subject</td>
-        <td>Marks</td>
-      </tr>
-      <tr>
-        <td>Math</td>
-        <td>90</td>
-      </tr>
-      <tr>
-        <td>Optional Math</td>
-        <td>86</td>
-      </tr>
-      <tr>
-        <td>Computer</td>
-        <td>95</td>
-      </tr>
-      <tr>
-        <td>English</td>
-        <td>80</td>
-      </tr>
-      <tr>
-        <td>Nepali</td>
-        <td>75</td>
-      </tr>
-      <tr>
-        <td>Social Studies</td>
-        <td>83</td>
-      </tr>
-    </table>
-    <br>
+      .nav-left {
+        display: flex;
+        align-items: center;
+        column-gap: 50px;
+      }
 
-    <table border="2px" cellpadding="10px" cellspacing="0">
-      <thead>
-        <tr>
-          <th>Time</th>
-          <th>Activity</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>6:00</td>
-          <td>Waking up</td>
-        </tr>
-        <tr>
-          <td>10:00</td>
-          <td>Eating lunch</td>
-        </tr>
+      .nav-left nav {
+        display: flex;
+        column-gap: 30px;
+        row-gap: 10px;
+        flex-wrap: wrap;
+      }
 
-      </tbody>
-      <tfoot>
-        <tr>
-          <td>OverAll</td>
-          <td>Fine Day</td>
-        </tr>
-      </tfoot>
-    </table>
+      .nav-right {
+        display: flex;
+        gap: 30px;
+      }
 
+      .dis-sec {
+        position: relative;
+        height: 45vw;
+      }
 
-    <br>
+      .dis-bg {
+        position: absolute;
+        top: 0;
+        height: 45vw;
+        width: 100%;
+        background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682:VP4-1399x600");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
 
-    <br>
-    <h3>IFrame Tags</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GeieIIBdBY8?si=aNFZ8cAz6NI45s5X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<br>
-<iframe src="About.html" frameborder="20px" height="200" width="200"></iframe>
-<h3>My Fav Videos and audios</h3>
-<audio src="https://s3.amazonaws.com/scifri-episodes/scifri20181123-episode.mp3" controls loop></audio>
-<video height="200px" src="https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4" autoplay controls muted  loop></video>
-<h3>i want to see changes</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam expedita architecto molestiae vitae voluptas corrupti? Eum, excepturi sed pariatur quibusdam amet maiores possimus optio odit modi inventore explicabo impedit numquam facilis deleniti ad nemo, iste nihil cum. Nostrum quasi vero eveniet inventore magnam iste ratione.
-</p>
+      .dis-card {
+        position: absolute;
+        top: 50px;
+        left: 40px;
+        max-width: 450px;
+        background-color: white;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+      }
 
+      .btn {
+        border: none;
+        outline: none;
+        background-color: #005da5;
+        color: white;
+        padding: 10px 20px;
+      }
 
-</body>
+      main {
+        padding: 0 50px;
+      }
+
+      .prod-sec {
+        margin: 30px 0;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      }
+
+      .product {
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+          rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .product-info {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+        padding: 20px 20px 40px 20px;
+        height: 350px;
+      }
+
+      .product-info p {
+        flex-grow: 1;
+      }
+
+      @media (max-width: 866px) {
+        .nav-right {
+          display: none;
+        }
+
+        .dis-sec {
+          height: auto;
+        }
+
+        .dis-bg {
+          position: static;
+          height: 50vw;
+        }
+
+        .dis-card {
+          position: static;
+          padding: 20px;
+          /* width: 100vw; */
+        }
+      }
+
+      @media (max-width: 640px) {
+        .nav-left {
+          flex-direction: column;
+          row-gap: 10px;
+        }
+
+        header {
+          padding: 5px 20px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- --------------------------------------- -->
+    <header>
+      <div class="nav-left">
+        <div class="logo">
+          <img
+            style="height: 22px"
+            src="/Assets_microsoftclone/images/logo.png"
+            alt=""
+          />
+        </div>
+        <nav>
+          <a href="">Microsoft 365</a>
+          <a href="">Teams</a>
+          <a href="">Copilot</a>
+          <a href="">Windows</a>
+          <a href="">Surface</a>
+          <a href="">Xbox</a>
+          <a href="">Deals</a>
+        </nav>
+      </div>
+
+      <nav class="nav-right">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </nav>
+    </header>
+
+    <!-- ----------------------------------------- -->
+
+    <section class="dis-sec">
+      <div class="dis-bg"></div>
+      <div class="dis-card">
+        <h2>Up to $500 off select Surface Pro, Copilot+ PC, 13-inch</h2>
+        <p>
+          Hit the books with a fast, flexible 2-in-1 built for advanced AI
+          possibilities.
+        </p>
+        <button class="btn">Shop Surface Pro, Copilot+ PC</button>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------- -->
+
+    <main>
+      <section class="prod-sec">
+        <div class="product">
+          <img src="Assets_microsoftclone/images/card1.png" alt="" />
+          <div class="product-info">
+            <h3>Students get 3 free months of Microsoft 365</h3>
+            <p>
+              Save for a limited time on Microsoft 365 Personal with
+              Copilot—featuring premium apps, cloud storage, and more—when you
+              sign up with your college email address.
+            </p>
+            <div class="btn">Learn More</div>
+          </div>
+        </div>
+        <div class="product">
+          <img src="Assets_microsoftclone/images/card2.png" alt="" />
+          <div class="product-info">
+            <h3>Students get 3 free months of Microsoft 365</h3>
+            <p>
+              Go from cram sessions to study breaks with the ultimate all-in-one
+              laptop.
+            </p>
+            <div class="btn">Learn More</div>
+          </div>
+        </div>
+        <div class="product">
+          <img src="Assets_microsoftclone/images/card3.png" alt="" />
+          <div class="product-info">
+            <h3>Students get 3 free months of Microsoft 365</h3>
+            <p>
+              Always by your side, ready to support you whenever and wherever
+              you need it.
+            </p>
+            <div class="btn">Learn More</div>
+          </div>
+        </div>
+        <div class="product">
+          <img src="Assets_microsoftclone/images/card4.png" alt="" />
+          <div class="product-info">
+            <h3>Students get 3 free months of Microsoft 365</h3>
+            <p>
+              Next-gen frame rate meets lightning-fast load times in the most
+              powerful Xbox ever—now available with a 2TB SSD in special-edition
+              Galaxy Black.
+            </p>
+            <div class="btn">Learn More</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- -------------------------------------------- -->
+    <footer></footer>
+  </body>
 </html>
